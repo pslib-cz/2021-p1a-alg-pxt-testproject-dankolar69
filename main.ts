@@ -1,4 +1,3 @@
 basic.showIcon(IconNames.Heart)
-basic.forever(function on_forever() {
-    
-})
+led.plot(0, 0)
+console.log(led.plotAll())

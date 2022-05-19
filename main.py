@@ -1,4 +1,3 @@
 basic.show_icon(IconNames.HEART)
-def on_forever():
-    pass
-basic.forever(on_forever)
+led.plot(0, 0)
+print(led.plot_all())
